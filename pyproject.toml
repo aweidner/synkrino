@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "synkrino"
+version = "0.1.0"
+description = "Get notified when a website changes"
+authors = ["Adam Weidner"]
+license = "mit"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+requests = "^2.24"
+pyqt5-sip = "^12.8"
+scikit-image = "^0.17.2"
+imutils = "^0.5.3"
+
+[tool.poetry.dev-dependencies]
+dephell = "^0.8.3"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
